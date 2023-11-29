@@ -1,0 +1,13 @@
+name: visionfit
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy
+      - opencv-python
+      - streamlit
+      - python-dotenv
+      - openai
+      - protobuf
